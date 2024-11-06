@@ -6,7 +6,7 @@
 
 2. Open Terminal in the root of this repository
 
-3. Enter `docker build -t mysql_db`
+3. Enter `docker buildx build ./ -t mysql_db`
 
 4. Wait until the image is built. Can check using `docker images`. There should be an image with REPOSITORY: mysql_db
 
